@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="./favicons/favicon-16x16.png">
+  
+  <script defer src="./js/script.js"></script>
+
+  <title>pokedex</title>
+</head>
+<body>
+
+  <main>
+
+    <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="id_poke"></span> -
+      <span class="nome_poke"></span>
+    </h1>
+
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Número ou o nome do Pokemon"
+        required
+      />
+    </form>
+    
+    <div class="buttons">
+
+      <audio id="audio" src="./music/Pokémon - Tema de Abertura (Completo).mp3"></audio>
+
+      <button class="button" id="play" onclick="playPause()">Play &#9658;</button>
+      <button class="button" id="pause">Parar &#9611;</button>
+    </div>
+    
+    <div class="buttons-music">
+      <button class="button btn-prev">&lt;- Voltar </button>
+      <button class="button btn-next">Próximo -&gt;</button>
+    </div>
+
+    <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+
+    <button class="redondo button modal-container">?</button>
+
+
+  </main>
+  
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    background: linear-gradient(to bottom, #6b36ff, rgb(255, 255, 255));   min-height: 100vh;
+    text-align: center;
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon__image{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemon__data{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    left: 34%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.nome_poke{
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.input__search{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #3a444d;
+    font-weight: 600;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+}
+
+.buttons-music{
+    position: absolute;
+    width: 65%;
+    bottom: 19%;
+    left: 50%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.buttons{
+    position: absolute;
+    width: 65%;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    width: 100%;
+    font-weight: 600;
+    padding: 3%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: #fff;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    cursor: pointer;
+}
+
+.button:active{
+    box-shadow:inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+
+.redondo{
+    position: absolute;
+    bottom: 84%;
+    left: 68%;
+    transform: translate(-30%, 40%);
+    width: 14%;
+    height: 9%;
+    border-radius: 100%;
+}
